@@ -5,6 +5,7 @@ import Dashboard from "./Pages/Dashboard";
 import PaymentPage from "./Pages/PaymentPage";
 import MessCard from "./Pages/MessCard";
 import Rooms from "./Pages/Rooms";
+import SignupForm from "./Pages/SignupForm";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/messcard" element={<MessCard />} />
         <Route path="/rooms" element={<Rooms />} />
+        <Route path="/signup" element={<SignupForm />} />
       </Routes>
     </Router>
   );
