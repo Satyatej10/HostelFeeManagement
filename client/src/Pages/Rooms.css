@@ -1,0 +1,88 @@
+/* Styling for the button */
+.book-btn {
+    background-color: #0b0f0b; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #45a049; /* Darker Green */
+  }
+  
+  /* Container and Layout */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for Grid and Room Items */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid > div {
+    text-align: center;
+  }
+  
+  /* Room Information Styling */
+  .text-lg {
+    font-size: 1.25rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .bg-red-500 {
+    background-color: #e53e3e; /* Red */
+  }
+  
+  .bg-yellow-500 {
+    background-color: #ecc94b; /* Yellow */
+  }
+  
+  .bg-green-500 {
+    background-color: #38a169; /* Green */
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  /* Padding and margins for spacing */
+  .mt-2 {
+    margin-top: 0.5rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .border {
+    border: 1px solid #ccc;
+  }
+  
+  .rounded-lg {
+    border-radius: 8px;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
